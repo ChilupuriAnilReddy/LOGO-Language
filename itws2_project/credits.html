@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credits</title>
+		 <link rel="stylesheet" type="text/css" href="credits.css">
+		  <script src="jquery-1.11.0.js"></script>
+		  <script>
+		  	$(document).ready(function(){
+$(window).load(function(){
+$("#main").fadeIn(500);
+$("#bk").fadeIn(500);
+});
+		  	});
+function can(obj)
+{
+	obj.style.color = '#FFFFFF';
+ 	obj.style.backgroundColor =  '#3B5998';
+ 
+}
+function col(obj)
+ {
+ 	obj.style.backgroundColor = '#FFFFFF';
+ 	obj.style.color = '#3B5998';
+ 	//obj.style.height = '30px';
+ }
+		  </script>
+	</head>
+	<body>
+		<div id="bk" onmouseover="col(this)" onmouseout="can(this)">
+		<a href="index.html"><h1 id="bck" >Back</h1></a></div>
+		<div id="main"> 
+			<pre>
+				Credits:-
+				Anil Reddy(201301238)
+				Dinesh (201301215)
+				Ranjith Reddy (201301237)</pre>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+body
+{
+	background-image:url('./Images/itro.jpg');
+}
+#main
+{
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'Special Elite', cursive;
+	position: relative;
+	top: 150px;
+	left: 50px;
+	display: none;
+}
+#bk
+{
+	width: 100px;
+	height: 40px;
+	display: none;
+	background-color: #3B5998;
+	border-radius: 25px;
+	color: #FFFFFF;
+
+}
+#bck
+{
+	margin-left: 3px;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}

@@ -1,0 +1,24 @@
+for [i 1 1000 1] [fd i rt 90]
+repeat 8[rt 45 repeat 6[repeat 90[fd 2 rt 2] rt 90]]
+repeat random 1000[fd random 50 rt random 360]
+for [i 1 1000 1] [fd i rt 89.99] 
+for [i 1 150 1] [fd i rt 89]
+repeat 12[repeat 40[fd 100 bk 95 rt 2] rt 180]
+repeat 36[fd 20 rt 10]
+repeat 1000[pu fd 15 pd fd 1 rt random 360]
+repeat 9[for [i 10 200 10] [fd i bk i rt 2]]
+repeat 8[repeat 4[rt 90 fd 60] bk 60 lt 45]
+repeat 5[repeat 6[fd 60 lt 72] lt 144]
+repeat 180[fd 80 bk 80 rt 2]
+repeat 4[repeat 30[lt 90 fd 4 rt 90 fd 4] rt 90]
+pu bk 80 pd repeat 4[repeat 20[lt 160 fd 20 rt 160 fd 20] rt 90]
+pu bk 80 pd repeat 8[repeat 20[lt 170 fd 20 rt 170 fd 20] rt 45]
+****  repeat 4000[repeat 34[fd 12 rt 10] rt 90] //important
+repeat 36[fd 30 rt 61 bk 40 lt 41 fd 42 rt 41]
+repeat 16[fd 42 lt 60 fd 53 bk 72 lt 53 fd 37]
+
+
+
+
+
+

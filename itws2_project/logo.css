@@ -1,0 +1,211 @@
+body
+{
+	background-color: #CCCCCC;
+
+}
+#hea
+{	
+	display: none;
+	position: relative;
+	color: #FFFFFF;
+	left: 500px;
+	top: 200px;
+	font-family: 'Special Elite', cursive;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 35px;
+}
+#all
+{
+	width:1350px;
+	height: 480px;
+	border-radius: 5px;
+	display: none; 
+}
+#cmds
+{
+	font-family: 'Special Elite', cursive;
+	color: #1A4C1A;
+}
+#bor
+{
+	float: left;
+	width: 955px;
+	height: 480px;
+	margin-left: 7px;
+}
+#myCanvas1
+{
+	border-radius: 7px;
+	border: 2px solid;
+	
+}
+#myCanvas2
+{
+	border-radius: 7px;
+	border: 2px solid;
+	
+}
+#hor
+{
+	float: left;
+	margin-left: 7px;
+	background-color: #000000;
+	width: 2px;
+	height: 480px;
+}
+#links
+{
+	float: left;
+	color: #000000;
+	margin-left: 30px;
+	width: 250px;
+	height: 125px;
+}
+#home
+{
+	cursor: pointer;
+	color: #000000;
+	width: 290px;
+	float: left;
+	font-size: 25px;
+	height: 25px;
+}
+#line
+{
+	background-color: #FFFFFF;
+	width: 290px;
+	height: 1px;
+	margin-top: 6px;
+}
+#cre
+{
+	margin-top: 10px;
+	width: 290px;
+	float: left;
+	height: 25px;
+	font-size: 25px;
+	cursor: pointer;
+}
+#lino
+{
+	background-color: #FFFFFF;
+	width: 290px;
+	height: 1px;
+	margin-top: 16px;
+}
+#hel
+{
+margin-top: 10px;
+float: left;
+height: 25px;
+font-size: 25px;
+cursor: pointer;
+}
+#liko
+{
+	background-color: #FFFFFF;
+	width: 290px;
+	height: 1px;
+	float: left;
+}
+#para
+{
+	color: #000000;
+/*chk*/
+	float: left;
+	font-size: 25px;
+	margin-left: 30px;
+}
+#scroll
+{
+	background-color: #FFFFFF;
+	width: 275px;
+	height: 200px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 35px;
+	overflow: auto;
+	border-radius: 5px;
+}
+#inpt
+{
+	margin-top: 5px;
+	margin-left: 15px;
+	float: left;
+	height: 35px;
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	width: 850px;
+	border: 1px solid;	
+}
+#but
+{
+	height: 28px;
+	padding-top: 7px;
+	padding-left: 5px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	width: 50px;
+	border : 1px solid;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+#nxt
+{
+	display: none;
+	height: 25px;
+	width: 970px;
+}
+#cmd_t_exe
+{
+	font-size: 25px;
+	font-family: 'Special Elite', cursive;
+	height: 27px;
+	width: 844px;
+	color: #1A4C1A;
+}
+#cle
+{
+	float: left;
+	margin-left: 40px;
+	width: 75px;
+	height: 25px;
+	border-radius: 5px;
+	padding-top: 4px;
+	padding-left: 5px;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#colo
+{
+	width: 217px;
+	background-color: #FFFFFF;
+	color:#000000;
+	height: 20px;
+	float: left;
+	border-radius: 5px;
+	position: relative;
+	top: 50px;
+	left: -78px;
+}
+#ra
+{
+color:#000000;
+}
+#tab
+{
+	width: 45px;
+	border-radius: 2px;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}

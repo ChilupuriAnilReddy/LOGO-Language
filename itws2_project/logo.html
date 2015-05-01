@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Logo Interpreter</title>
+<link rel="stylesheet" type="text/css" href="logo.css">
+<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nova+Square' rel='stylesheet' type='text/css'>
+ <script src="jquery-1.11.0.js"></script>
+</head>
+<body>
+<h1 id="hea">Logo Interpreter</h1>
+<div id="all">
+<div id="bor">
+	<canvas id="myCanvas1" width="950" height="450" style="position: absolute; left: 100; top: 100; z-index: 0;"></canvas>
+	<canvas id="myCanvas2" width="950" height="450" style="position: absolute; left: 100; top: 100; z-index: 0;"></canvas>
+</div>
+
+
+<div id="links">
+<div id="home"><a href="index.html">Home</a></div>
+<br>
+<div id="line"></div>
+<div id="cre"><a href="credits.html">Credits</a></div>
+<br>
+<div id="lino"></div>
+<div id="hel"><a href="help.html">Help</a></div>
+<br>
+<div id="liko"></div>
+</div>
+<div id="para" >Commands:-</div>
+<div id="scroll">
+	<ol id="cmds"></ol>
+	</div><br>
+	<div id="cle" onclick="clean()" onmouseover="cap(this)" onmouseout="ca(this)">Clear</div><br>
+	<div id="colo">
+		Color: <input id= "ra" class="color"   >
+	</div>
+	</div>
+	<div id="nxt">
+<div id="inpt">
+	<input type="text" name="txt" value="Enter Command here..." id="cmd_t_exe" onchange="init()" size="118" onfocus="check()" ></input>
+</div>
+<div id="but" onmouseover="cap(this)" onmouseout="ca(this)">Run</div></div>
+<script src="logo.js"> </script>
+<script type="text/javascript" src="jscolor/jscolor.js"></script>
+</body>
+</html>
